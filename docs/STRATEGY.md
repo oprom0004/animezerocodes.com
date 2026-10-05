@@ -55,6 +55,10 @@
   - 全站模板（Site-wide navigation）里的每一个外链，都会成百上千次地向外部域名稀释并分流全站核心的 PageRank 权重（Link Equity / Juice Bleeding）。
   - Google 算法对新站初期尤其敏感，全局链出外部域名（即使是官方 Roblox），不会给自身带来加分，反而会导致内部深层页面的权重传递通道被严重削弱。
 - **规范标准**：
-  - **导航与全局元素纯化**：Header 与 Footer 仅保留纯净的站点内页路由（如 Active Codes `/`、`/how-to-redeem/`、`/tier-list/`、`/reroll-guide/`）。
+  - **导航与全局元素纯化**：Header 与 Footer 仅保留纯净的站点内页路由（如 Active Codes `/`、`/how-to-redeem/`、`/tier-list/`、`/reroll-guide/`、`/play/`）。
+  - **网关缓冲页打法（Gateway Buffer Page）**：
+    - 导航栏保留高转化的 `Play Game ↗` 按钮，但**统一指向站内网关页 `/play/`**，实现 100% 内部权重循环。
+    - `/play/` 页面本身作为高价值的内容着陆页（提供键位对照表、平台兼容配置、防钓鱼安全指引、启动 FAQ），单点放置带 `rel="nofollow noopener noreferrer"` 的官方 Roblox 启动按钮。
+    - **双重收益**：既防御了全站权重外泄，又顺势吃下了 `anime zero roblox link`、`how to play anime zero` 等长尾高意图搜索词，同时增加用户在站内的浏览深度与停留时长。
   - **内容页单点链出控制**：仅在特定文章正文或必要合规声明（如 Privacy Policy 中 Google 广告政策）按需单次局部出现，并带上安全与合规标签。
 
