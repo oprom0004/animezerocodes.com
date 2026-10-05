@@ -45,3 +45,16 @@
 [Phase 3: 矩阵资产化]
 拥有极高爬虫抓取频次与高权重 DR -> 成为全球顶流二次元 Codes 垂直大站 (或视情况 301 赋能更大泛域名)
 ```
+
+---
+
+## 四、外链防御铁律：严禁全站级链出 (No Sitewide Outbound Links)
+
+- **核心原则**：导航栏（Header）、页脚（Footer）等全站级全局模板中，**绝对不要放置指向外部域名的链接**（包括官方 Roblox 游戏页、社媒、第三方工具等）。
+- **SEO 损耗机理**：
+  - 全站模板（Site-wide navigation）里的每一个外链，都会成百上千次地向外部域名稀释并分流全站核心的 PageRank 权重（Link Equity / Juice Bleeding）。
+  - Google 算法对新站初期尤其敏感，全局链出外部域名（即使是官方 Roblox），不会给自身带来加分，反而会导致内部深层页面的权重传递通道被严重削弱。
+- **规范标准**：
+  - **导航与全局元素纯化**：Header 与 Footer 仅保留纯净的站点内页路由（如 Active Codes `/`、`/how-to-redeem/`、`/tier-list/`、`/reroll-guide/`）。
+  - **内容页单点链出控制**：仅在特定文章正文或必要合规声明（如 Privacy Policy 中 Google 广告政策）按需单次局部出现，并带上安全与合规标签。
+
